@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "node index.js",
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js",
     "dev": "nodemon index.js"
   },
   "dependencies": {
