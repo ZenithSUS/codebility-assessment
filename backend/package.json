@@ -8,11 +8,14 @@
   },
   "dependencies": {
     "express": "^4.21.2",
+    "express-xss-sanitizer": "^2.0.0",
+    "helmet": "^8.1.0",
     "nodemon": "^3.1.10"
   },
   "devDependencies": {
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.3",
+    "@types/express-xss-sanitizer": "^2.0.0",
     "@types/node": "^20.17.30",
     "cors": "^2.8.5",
     "ts-node": "^10.9.2",
